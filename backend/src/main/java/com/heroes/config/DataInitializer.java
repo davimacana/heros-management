@@ -14,7 +14,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Component
-@Profile("h2")
 public class DataInitializer implements CommandLineRunner {
 
     private final HeroRepository heroRepository;
@@ -101,4 +100,5 @@ public class DataInitializer implements CommandLineRunner {
 
         System.out.println("Heróis iniciais criados com sucesso!");
     }
+
 }
